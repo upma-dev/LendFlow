@@ -2,7 +2,7 @@ import React from 'react';
 import { ViewState } from '../types';
 import { ShieldCheck, LayoutDashboard, Compass, CreditCard, ChevronRight, Menu, X } from 'lucide-react';
 
-const logoImg = "/src/assets/images/platform_logo_1779516604411.png";
+const logoImg = "/public/logo.png"; // Ensure this path is correct based on your project structure
 
 interface NavbarProps {
   currentView: ViewState;
